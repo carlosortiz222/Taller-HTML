@@ -1,0 +1,143 @@
+ *{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    background-color: rgb(200, 226, 241);
+}
+
+.content{
+    max-width: 1024px;
+    margin: auto;
+}
+
+body{
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    height: auto;
+    background-color: rgb(24, 23, 23);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 10px 0 gray;
+    color: white;
+}
+
+.navegacion{
+    background-color: rgb(24, 23, 23);
+    width: auto;
+    display:inline-block;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+
+.navegacion:hover{
+    background-color: white;
+}
+.navegacion:hover a {
+    color: black;
+}
+
+.navegacion:active{
+   background-color: rgb(0, 30, 128);
+   color: white;
+}
+.navegacion:active a{
+    color: white;
+ }
+
+
+#mifoto {
+    float: left;
+    width: 145px;
+    border: 10px solid black;
+    box-shadow: 10px 20px 20px 0 gray;
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+.sobremi  {
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-align: justify;
+    border: none;
+}
+
+footer{
+    height: auto;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+footer > p{
+    font-size:12px;
+    text-align: center;
+    padding: 3px;
+}
+
+section{
+    margin: 10px;
+    padding: 20px;
+}
+
+fieldset{
+    margin-top: 50px;
+}
+
+fieldset >ul{
+    margin-left: 50px;
+    text-align: center;
+    }
+
+aside{
+    margin: 20px 30px;
+    padding: 5px 50px;
+}
+
+aside >p>b{
+    font-weight:600;
+    margin-left: 20px;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+h3{
+    font-weight:600;
+    font-size: medium;
+    height: 35px;
+    background-color: rgb(24, 23, 23);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-weight:600;
+    height: 35px;
+    background-color: rgb(24, 23, 23);
+    display: block;
+    padding: 5px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 10px;
+}
